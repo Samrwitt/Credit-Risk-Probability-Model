@@ -115,7 +115,7 @@ with mlflow.start_run():
 
 1. **Setup**:
 ```bash
-git clone https://github.com/RuhamaY/Credit-Risk-Probability-Model.git
+git clone https://github.com/Samrwitt/Credit-Risk-Probability-Model.git
 cd credit-risk-model
 pip install -r requirements.txt
 ```
