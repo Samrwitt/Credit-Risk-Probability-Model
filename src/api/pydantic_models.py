@@ -12,6 +12,7 @@ class CustomerFeatures(BaseModel):
     ChannelId: str = Field(..., example="MobileApp", description="Channel used for purchase.")
     PricingStrategy: str = Field(..., example="Standard", description="Pricing strategy applied.")
 
+
 class PredictionResult(BaseModel):
     customer_id: str
     risk_probability: float

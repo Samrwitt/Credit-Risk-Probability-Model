@@ -1,5 +1,6 @@
 version: '3.8' # Good version, supports current Docker Compose features
 
+
 services:
   web:
     build: . # Builds the image using the Dockerfile in the current directory

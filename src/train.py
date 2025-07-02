@@ -11,6 +11,7 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score,
 import joblib
 import warnings
 
+
 # Suppress warnings for cleaner output during training.
 warnings.filterwarnings("ignore")
 
@@ -19,6 +20,7 @@ def load_processed_data(file_path):
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Processed data file not found at {file_path}")
     return pd.read_csv(file_path)
+
 
 def load_data():
     """

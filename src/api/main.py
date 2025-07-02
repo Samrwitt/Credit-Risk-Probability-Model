@@ -118,6 +118,7 @@ async def predict(features: CustomerFeatures):
     else:
         category = "Low"
 
+
     # 6. --- Example Logic for Recommended Limit and Term (CUSTOMIZE THIS!) ---
     recommended_limit = None
     recommended_term = None

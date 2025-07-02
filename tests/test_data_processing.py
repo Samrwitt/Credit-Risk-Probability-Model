@@ -33,6 +33,7 @@ def sample_data(fixed_now):
     df['TransactionStartTime'] = pd.to_datetime(df['TransactionStartTime']) # Ensure datetime type
     return df
 
+
 def test_rfm_transformer_columns(sample_data, fixed_now):
     """Test all RFM and temporal features are created"""
     transformer = RFMTransformer(snapshot_date=fixed_now)
